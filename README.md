@@ -4,9 +4,13 @@ This project helps you to run Openwrt x86 on VirtualBox with Vagrant.
 
 # Running instructions
 
-* Use the `utils/create_box.sh` to create your own vagrant box with openwrt x86 releases.
-* Add the newly created box to your vagrant environment `vagrant box add utils/openwrt-19.07.0-x86-64.box --name openwrt-19.07.0-x86-64`
+* Optional to create your own box:
+* Use the `utils/create_box.sh` to create your own vagrant box.
+* Add the newly created box to your vagrant environment `vagrant box add utils/openwrt-19.07.3-x86-64.box --name openwrt-19.07.3-x86-64`
+
+* If you don't want to create your own box, you can use the pregenerated: `vagrant box add openwrt-19.07.3-x86-64.box --name openwrt-19.07.3-x86-64`
 * Now you can run `vagrant up`
+* Log in with `vagrant ssh main` or `vagrant ssh node_5` where the number is variable.
 * Profit!
 
 # Changes to the image
@@ -19,9 +23,9 @@ This project helps you to run Openwrt x86 on VirtualBox with Vagrant.
 
 * virtualbox
 * vagrant
-* vagrant-host-shell
-* vagrant-scp
-* sshpass
+
+### To create your own box:
+
 * curl
 * socat
 * expect

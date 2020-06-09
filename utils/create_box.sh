@@ -2,7 +2,7 @@
 # based on: https://github.com/elventear/openwrt-in-vagrant
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-VERSION=19.07.0
+VERSION=19.07.3
 URL="https://downloads.openwrt.org/releases/${VERSION}/targets/x86/64/openwrt-${VERSION}-x86-64-combined-ext4.img.gz"
 VDI="./openwrt.${VERSION}.vdi"
 VMNAME="openwrt-${VERSION}-x86-64"
