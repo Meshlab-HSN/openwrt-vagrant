@@ -1,0 +1,3 @@
+.vagrant
+utils/.openwrt_src
+utils/openwrt-19.07.3-x86-64.box
