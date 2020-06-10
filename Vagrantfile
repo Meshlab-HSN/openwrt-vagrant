@@ -3,7 +3,7 @@
 
 # VBoxManage dhcpserver remove --ifname vboxnet0
 
-DEFAULT_BOX="openwrt-19.07.3-x86-64"
+DEFAULT_BOX="openwrt-19.07.3-x86-64.box"
 
 Vagrant.configure(2) do |config|
   config.ssh.username = "root"
