@@ -15,7 +15,7 @@ This project helps you to run Openwrt x86 on VirtualBox with Vagrant.
 * Profit!
 ---
 
-* If Vagrant isn´t working on your PC, import the `openwrt-vagrant-main.ova` directly to Virtualbox.
+* If Vagrant isn´t working on your PC, import the `openwrt-VM.ova` directly to Virtualbox.
 
 # Changes to the image
 
